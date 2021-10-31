@@ -1,0 +1,81 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+body{
+	background-color:rgb(232, 232, 232);
+
+}
+
+.wrapper {
+align-items: center;
+max-width: 800px;
+margin: auto;
+padding-top: 100px;
+}
+
+.text {
+	max-width: 700px;
+	margin: auto;
+}
+.header {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 50px;
+	text-align: center;
+	}
+.img {
+	max-width: 800px;
+	height: 500px;
+	border: 5px solid white;
+	background-image: url("/img/light-man.jpg");
+	box-shadow: 0 0 40px black;
+}
+
+p {
+	font-size: 17px;
+	opacity: 0.6;
+	margin: 50px 0;
+}
+
+ul {
+list-style: none;
+}
+
+ul li {
+	margin-bottom: 10px;
+	padding-left: 20px;
+	background: url('/img/icons/li.svg') 0 2px no-repeat;
+}
+
+button {
+	margin: 40px	0 20px 0px;
+	background-color:rgb(33, 179, 216) ;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	padding: 5px 15px;
+
+}
